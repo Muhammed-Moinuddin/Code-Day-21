@@ -1,0 +1,39 @@
+td{
+    background-color: rgb(99, 99, 243);
+    padding: 15px;
+    border: 2px solid #000000;
+}
+table.one{
+    border-spacing: 10px;
+}
+table.two{
+    border-collapse: collapse;
+}
+/*Border-collapse are collapsed into a single border where 
+possible (border-spacing will be ignored and cells pushed 
+together, and empty-cells properties will be ignored.)*/
+/*border-separate are detached from each other. (border-spacing and 
+empty-cells will be obeyed.)*/
+
+input{
+    font-size: 120%;
+    color: #5a5854;
+    background-color:  #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+input:focus{
+    background-color: #ffffff ;
+    border: 1px solid #b1e1e4;
+}
+input#tweet{
+    background-image: url(images/tweet\ icon.png);
+}
+input#email{
+    background-image: url(images/email\ icon.png);
+}
